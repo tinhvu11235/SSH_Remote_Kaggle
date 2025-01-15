@@ -69,7 +69,7 @@ def start_ssh(id_rsa_pub="", password="", install_ssh=False, config_ssh=False):
     else:
         print("[ERROR] SSH service is not running.")
         return False
-    def start_vscode(ws_dir=".", 
+def start_vscode(ws_dir=".", 
                  password="12345", 
                  vscode_dir='~/.vscode', 
                  install=False, 
